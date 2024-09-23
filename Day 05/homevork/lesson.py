@@ -41,14 +41,25 @@
 
 
 
+# number =  int(input("please enter your number"))
+# num = 43
+# num1 =65
+# num2 = 54
+
+# print( num + num1 + num2 / 4)
 
 
+# number =  int(input("please enter your number"))
+# num = 23
+# num1 = 72
+# num2 = 62
+
+# print( num + num1 + num2 / 5)
 
 
+# number =  int(input("please enter your number"))
+# num = 83
+# num1 = 76
+# num2 = 41
 
-
-
-
-
-
-
+# print( num + num1 + num2 / 8)
