@@ -16,5 +16,48 @@
 
 
 
-# for i in range(0,50,5):
+# for i in range(1,50,2):
 #     print(i)
+
+
+
+
+# surname = "shavadze"
+
+# for i in surname:
+#     print(i)
+
+
+
+
+# for i in range(10,16):
+#     print(i)
+
+
+
+
+
+# i = 50
+
+# while i > 0:
+#     print(i)
+#     i = i - 1
+
+
+
+
+
+# i = 10
+
+# while i < 70:
+#     print(i)
+#     i += 2
+
+
+
+
+# i = 25
+
+# while i < 50:
+#     print(i)
+#     i += 2

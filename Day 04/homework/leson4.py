@@ -3,7 +3,7 @@
 # bedugg -nisnavs secdomis gamisworeba
 
 
-print(data)
+print("data")
 print("data")
 
 print("24"+12)
