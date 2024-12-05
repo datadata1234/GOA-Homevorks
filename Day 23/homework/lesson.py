@@ -36,3 +36,7 @@ print(kompiuteri.find("o"))
 
 # 5) შექმენით სია სტრინგით და თითოეული სტრინგი გადაიყვანეთ დიდ ასოებად for ციკლის მეშვეობით 
 
+name = ["data", "deme" "giorgi" "luka" "saba"]
+
+for i in name:
+    print(i.upper)

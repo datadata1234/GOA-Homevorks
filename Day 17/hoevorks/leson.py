@@ -19,8 +19,8 @@
 
 
 
-nam = [42, 5 , 18 ,9 ,36, 83, 3, 52, 2, 93 ]
+# nam = [42, 5 , 18 ,9 ,36, 83, 3, 52, 2, 93 ]
 
-for num in nam:
-    if num <10:
-        print(num)
+# for num in nam:
+#     if num <10:
+#         print(num)
