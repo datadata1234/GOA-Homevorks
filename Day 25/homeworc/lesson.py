@@ -37,11 +37,11 @@
 
 # 5)შექმენით სია შემდგარი 5 ელემენტისგან, მომხმარებელს შემოატანინეთ რიცხვი და სიიდან ამოაგდეთ შემოტანილ რიცხვის ინდექსზე მდგომი ელემენტი.
 
-vashli = ["data", "banani", True, "limoni", False]
+# vashli = ["data", "banani", True, "limoni", False]
 
-num = int(input("please enter a number:"))
+# num = int(input("please enter a number:"))
 
-print(vashli[num])
+# print(vashli[num])
 
 
 
