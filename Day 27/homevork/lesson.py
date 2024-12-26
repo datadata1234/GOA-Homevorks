@@ -8,10 +8,15 @@
 
 # # 2)შექმენით ფუნქცია რომელსაც გადაეცემა არგუმენტად რიცხვი შემდეგ კი მან უნდა დაგვიბრუნოს ლუწია ეს რიცხვი თუ კენტი.
 
-# def sum_of_even_odd():
-#      print("even or odd")
 
-# sum_of_even_odd(2423)
+# def even_or_odd(number):
+#     if number % 2 == 0:
+#         return "odd"
+#     else:
+#         return "even"
+    
+#     result = even_or_odd(534758660987654)
+#     print(result)
 
 
 # 3)შექმენით ფუნქცია რომელსაც არგუმენტად გადაეცემა რიცხვი შემდეგ კი მან უნდა დაგვიბრუნოს ეს რიცხვი დადებითია თუ უარყოფითი.
@@ -28,22 +33,23 @@
 # 4)შექმენით ფუნქცია, რომელსაც არგუმენტად გადაეცემა სახელი და დაბეჭდავს მისთვის მიესალმებას 
 # (მაგალითად: "Hello Giorgi"). გამოძახეთ ეს ფუნქცია 2-ჯერ და გადაეცით სხვადასხვა სახელი.
 
-def car():
-    print( "Hello Vano Teaher!")
+# def car():
+#     print( "Hello Vano Teaher!")
 
-car()
+# car()
 
-def baice():
-    print( "Hello giorgi Teacher!")
+# def baice():
+#     print( "Hello giorgi Teacher!")
 
-baice()
+# baice()
 
 
 # 5)შექმენით ფუნქცია, რომელიც იღებს ორ სტრინგს და მოახდინეთ კონკატენაცია.
 
+# def MAUS(string1, string2):
+#     return string1 + string2
 
+# result = MAUS("hello, ", "world!")
+# print(result)
 
-def  sum_of_Contamination(nam1, nam2):
-     print(nam1+ nam2)
-
-sum_of_Contamination("ფასგსგჰს"+"ჰდჰჰჯცდჯეიოდ")
+ 
