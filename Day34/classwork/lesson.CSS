@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+#d{
+    font-family: "Rubik Vinyl", serif;
+    text-shadow:green 1px 0px 2px ;
+}
+
+
+#da{
+    font-family: "Sixtyfour", serif; 
+    text-shadow:red 2px 2px 6px ;
+}
+
+#dat{
+    font-family: "Jersey 15", serif;
+    text-shadow:blue 3px 4px 1px ;
+}

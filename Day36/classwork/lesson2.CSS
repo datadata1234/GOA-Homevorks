@@ -1,0 +1,22 @@
+/* <!-- 2) შექმენით Table სადაც ყოველ ლუწ რიგს ექნება წითელი ფონის ფერი ხოლო კენტ რიგს ექნება ლურჯი ფერი და ა.შ
+
+გამოიყენეთ ასევე border-collapse კუთვნილება, გამოიყენეთ nth-child()
+
+როდესაც ცხრილის რიგთან მივიტანთ მაუსს იმ კონკრეტულ რიგმა უნდა შეიცვალოს ფონის ფერი უნდა გახდეს ფონი ნაცრისფერი --> */
+
+
+table, td, tr, th{
+    border-collapse: separate;
+}
+
+th{
+    background-color: white;
+}
+
+tr:nth-child(even){
+    background-color: red;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}

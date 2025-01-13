@@ -1,0 +1,47 @@
+/* 3)ააგეთ მრავალგვერდიანი საიტი თავისუფალ თემაზე გამოიყენეთ განვლილი მასალა 
+რაც გაიარეთ ასევე გამოიყენეთ დღეს ნასწავლი მასალა(pseudo-selectors,nth-child) */
+
+
+h1{
+    text-align: center;
+}
+
+#bmw{
+    color: #222;
+}
+
+#mersedes{
+    color: blue;
+}
+
+#aud{
+    color: blueviolet;
+}
+
+#bugat{
+    color: crimson;
+}
+
+#a:hover{
+    width: 500px;
+    
+}
+
+#a{
+    transition: 1s;
+}
+
+#b:hover{
+    width: 400px;
+    transition: 1s;
+}
+
+#c:hover{
+    width: 400px;
+    transition: 1s;
+}
+
+#d:hover{
+    width: 400px;
+    transition: 1s;
+}

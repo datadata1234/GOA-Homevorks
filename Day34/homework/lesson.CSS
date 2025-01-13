@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tsukimi+Rounded&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@200..1000&display=swap');
+
+#a{
+    font-family: "Playwrite AU VIC Guides", serif;
+}
+
+#b{
+    font-family: "Tsukimi Rounded", serif;
+}
+
+#c{
+    font-family: "Cairo Play", serif;
+}
