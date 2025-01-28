@@ -1,0 +1,18 @@
+/* 1)შექმენით სარეგისტრაციო ფორმა სადაც მომხმარებელს შემოატანინებთ სახელს გვარს და იმეილს.  
+
+ გასტილეთ თითოული input სურვილისამებრ მაგ:უკანა ფონის ფერი. Font-size ან border და ა.შ  */
+
+#name{
+    font-size: xx-small;
+    background-color: chocolate;
+}
+
+#surname{
+    font-size: x-small;
+    background-color: blue;
+}
+
+#email{
+    font-size: smaller;
+    background-color: blueviolet;
+}

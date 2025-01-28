@@ -1,0 +1,13 @@
+div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    gap: 5px;
+    background-color: blue;
+    border-radius: 20px;
+    width: 70px;
+    height: 70px;
+
+}
+
