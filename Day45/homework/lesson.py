@@ -9,7 +9,15 @@ def format_money(amount):
 
 # Check same case
 
-# NO
+def same_case(a, b): 
+    # your code here
+    pass
+
+    if not a.isalpha() or not b.isalpha():
+        return -1
+    elif a.isupper() and b.isupper() or  a.islower() and b.islower():
+        return 1
+    return 0
 
 # Sum of Multiples
 
