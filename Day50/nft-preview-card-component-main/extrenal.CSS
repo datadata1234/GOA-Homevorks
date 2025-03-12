@@ -30,7 +30,7 @@ body{
 
 #img1{
     height: 340ppx;
-    border-radius:15px;
+    border-radius:10px;
     margin-bottom:25px;
 }
 
@@ -78,6 +78,7 @@ p{
 }
 
 #p2{
+    padding: 15px;
     margin-top: 13px;
     font-size: 18px;
     color:  hsl(215, 32%, 27%);

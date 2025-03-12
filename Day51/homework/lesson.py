@@ -41,10 +41,5 @@ print(x)
 
 
 
-# ამას
-"January"
-"February"
-"March"
-["April", "May"]
-
-
+# fourth* ეს რასწორია და ამიტომ ერორს ამის 
+# სწორი ფორმა არის ესე  *fourth 
