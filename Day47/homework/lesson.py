@@ -1,49 +1,55 @@
-# 2)შეასრულეთ თქვენი არჩეული 3ცალი 8KYUანი ამოცანა
-
-# Disemvowel Trolls
-
-def disemvowel(string_):
-    aeiou = "aeiou"
-    for i in aeiou:
-        string_ = string_.replace(i, "")
-        string_ = string_.replace(i.upper(),"")
-    return string_
-
-# Convert a string to an array
-
-def string_to_array(s):
-    return s.split(' ')
-
-# Sum of positive
+# 8 kyu
 
 
-def positive_sum(arr):
-    result = 0
-    for i in arr:
-        if i > 0:
-            result += i
-            
-    return result
 
-# 3)შეასრულეთ თქვენი არჩეული 2ცალი 7KYUანი ამოცანა
+# Template Strings
 
-# Highest and Lowest
+def temple_strings(obj, feature): 
+    return obj + " are " + feature
 
-def high_and_low(numbers):
-    x = numbers.split()
-    y = [int(i) for i in x]
-    y.sort()
-    numbers = str(y[-1]) + " " + str(y[0])
-    return numbers
+# Sum The Strings
 
-# Ones and Zeros
-def binary_array_to_number(arr):
-    return sum([arr[i] * (2 ** (len(arr) - i - 1)) for i in range(len(arr))])
+def sum_str(a, b):
+    if a == "" and b == "":
+        return "0"
+    elif a == "":
+        return b
+    elif b == "":
+        return a
+    else:
+        return str(int(a) + int(b))
+    
+# Keep Hydrated!
 
-# 4)შეასრულეთ თქვენი არჩეული 1ცალი 6KYUანი ამოცანა
+def litres(time):
+    return time * 0.5 // 1
+
+
+
+# 7 kyu
+
+
+
+# Exes and Ohs
+
+
+def xo(s):
+    s = s.lower()
+    return s.count("o") == s.count("x")
+
+# tring ends with?
+
+def solution(text, ending):
+    # your code here...
+    pass
+    return text.endswith(ending)
+
+
+
+# 6 kyu
+
 
 # Counting Duplicates
-
 
 def duplicate_count(text):
     x = []

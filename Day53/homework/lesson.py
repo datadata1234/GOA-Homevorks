@@ -8,22 +8,19 @@
 
 # 3) შექმენით set სადაც შეინახავთ რიცხვებს, შემდეგ კი ინდექსინგის საშუალებით სცადეთ თითოეული ელემენტის შეცვლა და დააკვირდით შედეგს.
 
-# set არის შეუცვლელი
-
+# 
 
 # 4) შექმენით set, რომელშიც შენახული გექნებათ Fast food საკვები პროდუქტები. 
 # შემდეგ კი ამოშალეთ ყველა პირვანდელი ელემენტები set-იდან, და მათ ნაცვლად დაამატეთ ჯანსაღი საკვები პროდუქტები.
 
-fast_food_set = {"ჰამბურგერი", "პიცა", "კარტოფილი ფრი", "ჰოთ-დოგი", "ჩიზბურგერი"}
+fast_food = {"burger", "pizza", "hod dog"}
 
+fast_food.remove("burger")
+fast_food.remove("pizza") 
+fast_food.remove("hod dog") 
 
-fast_food_set.clear()
+fast_food.add("apple")
+fast_food.add("bannana")
+fast_food.add("milk")
 
-
-fast_food_set.add("სალათი")
-fast_food_set.add("ხილი")
-fast_food_set.add("ბოსტნეული")
-fast_food_set.add("თევზი")
-fast_food_set.add("ქათმის გულ-მკერდი")
-
-print(fast_food_set)
+print(fast_food)

@@ -43,7 +43,7 @@ def solve(s):
         return s.lower()
     else:
         return s.upper()
-
+    
 # Form The Minimum
 
 def min_value(digits):
@@ -62,17 +62,13 @@ def min_value(digits):
 # Maximum Multiple
 
 def max_multiple(divisor, bound):
+    #your code here
     word = []
     for d in range(1, bound + 1):
         if d % divisor == 0:
             word.append(d)
             
     return max(word)
-
-# Alphabetically ordered
-
-def alphabetic(s):
-    return s == "".join(sorted(s))
 
 # Case-sensitive!
 
