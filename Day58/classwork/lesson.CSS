@@ -1,0 +1,19 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation: changeBox 3s infinite alternate;
+}
+  
+@keyframes changeBox {
+    25% {
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+    }
+    50% {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+}

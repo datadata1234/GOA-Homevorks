@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.myDiv {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: transform 1.5s ease;
+
+}
+
+.myDiv:hover {
+    transform: translate(-50px, 100px) scale(2) rotate(-180deg);
+}

@@ -1,0 +1,31 @@
+.holiday-container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.holiday-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .holiday-container {
+        width: 80%;
+    }
+
+    .holiday-image {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .holiday-container {
+        width: 95%;
+    }
+
+    .holiday-image {
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,22 @@
+.animated-div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+  
+@keyframes mymove {
+    25% {
+        top: -40px; background-color: red;
+    }
+    50% {
+        left: 60px; background-color: green;
+    }
+    75% {
+        top: 0; background-color: yellow;
+    }
+    100% {
+        left: 0; background-color: blue;
+    }
+}

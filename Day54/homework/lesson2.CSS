@@ -1,0 +1,25 @@
+.color-box {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+@media (max-width: 768px) {
+    .color-box {
+        width: 100px;
+        height: 100px;
+    }
+}
