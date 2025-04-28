@@ -1,6 +1,6 @@
 body {
-    font-family: sans-serif; /* Example font */
-    background-color: #f0f2f5; /* Example background */
+    font-family: sans-serif; 
+    background-color: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,11 +13,10 @@ body {
     border-radius: 10px;
     overflow: hidden;
     display: flex;
-    max-width: 600px; /* Example width */
+    max-width: 600px; 
 }
 
 .image-container {
-    /* Styles for the image container */
     flex: 1;
 }
 
@@ -59,7 +58,7 @@ body {
 }
 
 .current-price {
-    color: green; /* Example color */
+    color: green; 
     font-size: 2em;
     margin-right: 15px;
 }
@@ -69,7 +68,7 @@ body {
 }
 
 .add-to-cart {
-    background-color: green; /* Example color */
+    background-color: green; 
     color: white;
     border: none;
     padding: 15px;
@@ -83,16 +82,15 @@ body {
 }
 
 .add-to-cart:hover {
-    /* Example hover effect */
+
     opacity: 0.8;
 }
 
-/* Responsive design using media queries (example) */
 @media (max-width: 768px) {
     .card {
         flex-direction: column;
     }
     .image-container img {
-        height: auto; /* Adjust image height for smaller screens */
+        height: auto; 
     }
 }

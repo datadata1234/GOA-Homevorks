@@ -2,16 +2,12 @@ print("day 0 homework")
 
 from turtle import  *
 
-
-
 speed(3)
-
-
 
 width(7)
 color("purple")
 forward(200)
-left(90)
+left(90) 
 forward(200)
 left(90)
 forward(200)
@@ -27,7 +23,7 @@ forward(60)
 right(90)
 forward(120)
 penup()
-goto(200,  200)
+goto(200,200)
 pendown()
 
 color("red")
@@ -47,6 +43,7 @@ forward(40)
 right(90)
 forward(40)
 right(90)
+
 forward(40)
 right(90)
 color("purple")
